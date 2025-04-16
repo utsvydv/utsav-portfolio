@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(145deg, #66a6ff, #89f7fe);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+
+.hero img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  color: #eef;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Section */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #f0f0f0;
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section Icons */
+i {
+  margin-right: 0.5rem;
+  color: #555;
+}
+
+i:hover {
+  color: #007BFF;
+}
+
+/* Projects Section */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.project-card {
+  padding: 1rem;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(145deg, #66a6ff, #89f7fe);
+  color: #fff;
+  margin-top: 2rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+  margin: 0;
+}
